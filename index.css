@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* fundo preto */
+    color: #ffffff; /* texto branco */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #00ff66; /* verde neon */
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #00ff66;
+    width: 80px;
+    margin: 1rem 0;
+}
+
+button {
+    background-color: #00ff66; /* verde */
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover {
+    background-color: #00cc55;
+}
+
+/* Seções */
+section {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Sobre o produto */
+.sobre-livro {
+    background-color: #111;
+    border-left: 5px solid #00ff66;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,255,100,0.2);
+}
+
+/* Lista de benefícios */
+.sobre-livro ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sobre-livro ul li {
+    background-color: rgba(0, 255, 100, 0.1);
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Oferta */
+.oferta {
+    text-align: center;
+    background-color: #0f0f0f;
+    border-top: 2px solid #00ff66;
+    border-bottom: 2px solid #00ff66;
+}
+
+/* Autor */
+.autor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    background-color: #111;
+    border: 2px solid #00ff66;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.foto-autor {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,255,100,0.2);
+}
+
+.descricao-autor {
+    flex: 1;
+    color: #e0e0e0;
+}
+
+/* Garantia */
+.garantia {
+    text-align: center;
+    background-color: #0a0a0a;
+    border-radius: 10px;
+    border: 1px solid #00ff66;
+}
+
+/* Preço */
+.preco {
+    text-align: center;
+    background-color: #111;
+    border: 2px dashed #00ff66;
+    border-radius: 10px;
+}
+
+/* Capa e descrição */
+.mentalidade-campeao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #0d0d0d;
+    gap: 2rem;
+    border-radius: 10px;
+    border: 1px solid #00ff66;
+    padding: 2rem;
+}
+
+.mentalidade-campeao img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,255,100,0.2);
+}
+
+.mentalidade-campeao .descricao {
+    flex: 1;
+    color: #e0e0e0;
+}
+.video {
+  text-align: center;
+  margin: 2rem auto;
+}
+.video h2 {
+  color: #00ff66;
+  margin-bottom: 1rem;
+}
+.video iframe {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,255,100,0.2);
+}
+
